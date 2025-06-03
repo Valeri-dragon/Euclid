@@ -187,16 +187,19 @@ body {
 .btn__secondary:focus {
   outline: none;
   background-color: var(--bg-btn-focus);
+  color: var(--color-wh);
 }
 
 .btn__secondary:hover {
   outline: none;
   background-color: var(--bg-btn-hover);
+  color: var(--color-wh);
 }
 
 .btn__secondary:active {
   outline: none;
   background-color: var(--bg-btn-active);
+  color: var(--color-wh);
 }
 
 /*header*/
