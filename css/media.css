@@ -203,12 +203,12 @@
     }
 
     .stages__img {
-        min-width: 668px;
+        min-width: 78%;
         max-height: 288px;
     }
 
     .stages__descr {
-        min-width: 667px;
+        min-width: 78%;
     }
 
     .item__questions {
