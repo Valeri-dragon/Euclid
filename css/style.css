@@ -269,6 +269,9 @@ color: #E1670E;
 .search__container {
   display: none;
 }
+.burger{
+  display: none;
+}
 /*main__section*/
 .main__container {
   background: url(../img/bg_main_section.jpg) no-repeat;
