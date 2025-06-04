@@ -529,7 +529,8 @@ background-color: #414141;
   width: 570px;
   height: 100%;
   min-height: 150px;
-  transition: c background-color 0.3s ease-in-out;
+  color: #CACACA;
+  transition: background-color 0.3s ease-in-out;
 }
 .form__textarea:focus {
   background-color: #666666;
