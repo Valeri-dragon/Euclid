@@ -377,10 +377,10 @@ color: #E1670E;
   }
 .stages__descr{
     max-width: 758px;
-    line-height: 33px;
+    line-height: 32.8px;
    
 }
-.stages__descr:nth-child(even){
+.stages__descr:nth-child(odd){
     margin-bottom: 14px;
 }
 .btn__container {
