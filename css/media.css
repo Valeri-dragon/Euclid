@@ -239,20 +239,41 @@
 }
 
 @media (max-width: 685px) {
-    :root{
+    :root {
         --brdr-btn: 8px;
-            --brdr: 16px;
+        --brdr: 16px;
     }
+
     .container {
         max-width: 320px;
         padding: 0 15px;
     }
-        .section__offset {
-            padding: 60px 0;
-        }
-        .section__title {
-            font-size: 24px;
-            line-height: 30px;   }
+
+    .section__offset {
+        padding: 60px 0 0 0;
+    }
+
+    .section__title {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .section__subtitle {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .section__descr {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 12px 44px;
+    }
 
     .header {
         min-height: 130px;
@@ -328,4 +349,94 @@
         padding: 13px 28px;
         font-size: 12px;
     }
+
+    /*about*/
+    .about {
+        margin-bottom: 0px;
+        
+    }
+
+    .about__detail {
+        /* flex-direction: column; */
+        padding: 0;
+        min-height: auto;
+        background: none;
+        overflow: inherit;
+    }
+
+    .about__descr {
+        margin-bottom: 12px;
+    }
+
+    .about__img--mob {
+        display: block;
+        border-radius: var(--brdr);
+        margin-bottom: 12px;
+    }
+
+    .detail__content {
+        flex-direction: column;
+        align-items: start;
+        padding: 0;
+        background: none;
+        color: inherit;
+        font-weight: 400;
+    }
+
+    .detail__text {
+        margin-bottom: 12px;
+    }
+
+    .btn__about {
+        color: #FF9900;
+    }
+
+    .services__list {
+        gap: 28px;
+    }
+
+    .services__item {
+        padding: 0;
+        border: none;
+    }
+
+    .services__item:nth-child(odd) {
+        background: url(../img/services_bg_odd_mob.svg) no-repeat;
+    }
+
+    .services__item:nth-child(even) {
+        background: url(../img/services_bg_even_mob.svg)no-repeat;
+    }
+
+    .services__item:nth-child(odd),
+    .services__item:nth-child(even) {
+        background-position: top left;
+        background-size: 63px 49px;
+    }
+
+    .services__article {
+        margin-top: 56px;
+        margin-left: 0;
+    }
+
+    /*stages*/
+    .stages__columns {
+        gap: 24px;
+    }
+
+    .stages__descr:nth-child(odd) {
+        line-height: 28px;
+    }
+
+    .btn__container {
+        gap: 10px;
+    }
+
+    .btn__secondary {
+        padding: 12px 32px;
+    }
+        .item__questions {
+            padding: 0;
+            border: none;
+        }
 }

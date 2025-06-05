@@ -44,7 +44,15 @@ button{
   font-style: normal;
   font-display: swap;
 }
-
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat-Medium"),
+    url("../fonts/Montserrat-Medium.woff2") format("woff2"),
+    url(../fonts/Montserrat-Medium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat-SemiBold"),
@@ -313,6 +321,9 @@ color: #E1670E;
 }
 .about__column {
   width: calc((100% - 32px) / 2);
+}
+.about__img--mob{
+  display: none;
 }
 .about__detail {
   align-items: flex-end;
