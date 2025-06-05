@@ -353,7 +353,7 @@
     /*about*/
     .about {
         margin-bottom: 0px;
-        
+
     }
 
     .about__detail {
@@ -435,8 +435,56 @@
     .btn__secondary {
         padding: 12px 32px;
     }
-        .item__questions {
-            padding: 0;
-            border: none;
-        }
+
+    .list__questions {
+        gap: 26px;
+    }
+
+    .item__questions {
+        padding: 0;
+        border: none;
+    }
+
+    .questions {
+        margin-bottom: 45px;
+    }
+
+    .footer {
+        padding: 30px 0 9px;
+    }
+        .form__content {
+          
+            margin-bottom: 40px;}
+    .form__control {
+        margin-bottom: 24px;
+    }
+
+    .form__input,
+    .form__textarea {
+        padding: 14px 20px;
+        max-width: 290px;
+    }
+
+    .form__wrapper {
+        min-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .form__btn {
+        padding: 13px 19px;
+    }
+        .footer__logo {
+            width: 131px;
+            margin-bottom: 0;
+}
+.social__icon {
+    width: 40px;
+}
+.container__footer--nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
 }
